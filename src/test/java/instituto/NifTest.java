@@ -48,7 +48,7 @@ public class NifTest {
     }
 
     /**
-     * Test del método setNif, de la clase Nif.
+     * Test del método setNif, de la clase Nif. 
      */
     @Test
     public void testSetNif() {
