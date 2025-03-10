@@ -63,7 +63,7 @@ public class Persona implements Comparable<Persona> {
     /**
      * Getter del nif.
      * Devuelve un objeto de tipo nif de la persona.
-     * @return 
+     * @return NIF objeto de tipo nif correspondiente a la persona.
      */
     public Nif getNif() {
         return nif;
