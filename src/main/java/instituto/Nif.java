@@ -20,10 +20,9 @@ public class Nif {
     
     /**
      * Método privado que asigna una letra para el NIF.
-     * Recibe cómo parámetro un número entero.
      * Devuelve la letra que le corresponde al número.
-     * @param numero
-     * @return 
+     * @param numero Número entero
+     * @return letra que le corresponde al número.
      */
     private static char calcularLetra(int numero) {
         return LETRAS[numero % 23];
@@ -40,9 +39,9 @@ public class Nif {
 
     /**
      * Constructor de la clase NIF.
-     * Recibe cómo parametro un número entero.
+     * 
      * Para asignar la letra se llama a la función calcularLetra.
-     * @param numero
+     * @param numero número entero.
      */
     protected Nif(int numero) {
         this.numero = numero;
@@ -52,7 +51,7 @@ public class Nif {
     /**
      * Sobreescribe la clase toString.
      * Devuelve un String con el conjunto del número del NIF y la letra.
-     * @return 
+     * @return String del conjunto del número del nif y de la letra.
      */
     @Override
     public String toString() {
@@ -61,9 +60,9 @@ public class Nif {
     
     /**
      * Método protegido para establecer el NIF.
-     * Recibe cómo parametro un número entero.
+     * 
      * Para asignar la letra se llama a la función calcularLetra.
-     * @param numero 
+     * @param numero número entero.
      */
     protected void setNif(int numero) {
         this.numero = numero;
@@ -74,8 +73,8 @@ public class Nif {
      * Método equals que compara dos NIF.
      * Permite ver si dos NIF son iguales.
      * 
-     * @param obj
-     * @return 
+     * @param obj Objeto
+     * @return True o false según la coincidencia del nif.
      */
     @Override
     public boolean equals(Object obj) {
