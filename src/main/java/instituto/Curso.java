@@ -1,14 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package instituto;
 
 import java.util.TreeSet;
 
 /**
- *
+ * Clase para crear objetos de tipo curso.
+ * 
  * @author Víctor Merino
+ * @version 1.0.0
  */
 public class Curso {
     
